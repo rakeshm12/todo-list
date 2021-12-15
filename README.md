@@ -6,9 +6,9 @@ Project for interview
 
 This is a simple todo app
 can perform all crud operations
-Simply add todos from homepage by clicking floating button
-tap added todo for updating data
-long press to delete
+Simply add todos from homepage by clicking floating button.
+tap added todo for updating data and
+long press to delete.
 using firebase firestore as database
 
 you can clone this repository
