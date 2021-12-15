@@ -113,11 +113,7 @@ class _TodoListState extends State<TodoList> {
                                     setState(() {
                                       TodoDB().deleteTodo(context, data.id);
                                     });
-                                    ScaffoldMessenger.of(context)
-                                        .showSnackBar(const SnackBar(
-                                        behavior: SnackBarBehavior.floating,
-                                        backgroundColor: Colors.black,
-                                        content: Text("Deleted successfully",style: TextStyle(color: Colors.white, fontSize: 15),)));
+
 
                                   },
                                   child: Padding(

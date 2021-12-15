@@ -67,7 +67,7 @@ class _AddTodoState extends State<AddTodo> {
                         return;
                       }
                       TodoDB()
-                          .addTodo(titleController.text, contentController.text)
+                          .createTodo(titleController.text, contentController.text)
                           .then(
                             (value) => Navigator.pushAndRemoveUntil(
                                     context,
