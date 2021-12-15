@@ -34,7 +34,7 @@ class _SplashViewState extends State<SplashView> {
               tag: 'logo',
               child: CircleAvatar(
                 child: Icon(Icons.notes, color: Colors.lightBlue, size: 70),
-                radius: 50,
+                radius: 35,
                 backgroundColor: Colors.white,
               ),
             ),
@@ -44,7 +44,7 @@ class _SplashViewState extends State<SplashView> {
             Text(
               "Todos",
               style: TextStyle(
-                  fontSize: 50,
+                  fontSize: 35,
                   color: Colors.white,
                   fontWeight: FontWeight.bold),
             )
